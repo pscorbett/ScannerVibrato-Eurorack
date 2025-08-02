@@ -1,0 +1,2809 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "8fdb74a4-8c15-464e-8ff0-50d9b8b78619")
+	(paper "A4")
+	(title_block
+		(title "Solid State Scanner Vibrato")
+		(date "2024-10-27")
+		(company "Osprey Instruments")
+	)
+	(lib_symbols
+		(symbol "Comparator:LM339"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM339"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM339_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 154.94 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0672ca35-2e05-4420-abb7-4b0c48dd0d3d")
+	)
+	(junction
+		(at 204.47 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "218e9d30-5f77-4c27-a90a-d40d3db8d934")
+	)
+	(junction
+		(at 43.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c75884-890d-4d60-8781-6a1b4c6b0cd1")
+	)
+	(junction
+		(at 54.61 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bb64249-c925-4624-b5f9-fde6b1717af1")
+	)
+	(junction
+		(at 43.18 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "373a7780-ae1e-4870-b85b-e73732e1f994")
+	)
+	(junction
+		(at 135.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535c7246-1c2b-4e32-89a6-7148defd55c7")
+	)
+	(junction
+		(at 170.18 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7690cfe4-0057-4d6c-8f23-3a872a72b334")
+	)
+	(junction
+		(at 69.85 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "829cfded-916b-4dda-a4a7-451e96fe8719")
+	)
+	(junction
+		(at 86.36 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a937bf3e-73e3-4570-8ae2-bc2aceb5450b")
+	)
+	(junction
+		(at 135.89 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff723ca-f83f-495f-b299-940b006d2533")
+	)
+	(junction
+		(at 170.18 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2766a4b-55a7-4112-a368-12e2e5ac2ac9")
+	)
+	(junction
+		(at 120.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3eea354-bbc8-45b5-8ada-2f2204289581")
+	)
+	(junction
+		(at 69.85 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd5bc1c6-d79d-4974-b4f8-b17f51cfcb32")
+	)
+	(junction
+		(at 101.6 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd138127-0a79-4a3e-bcdf-2b5cb2b6b118")
+	)
+	(junction
+		(at 54.61 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd743cf7-bef1-4b57-b440-20f5e0110b89")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f54dca18-d5f2-4981-b7a3-1896ff51d63d")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07920a20-d7bd-4c92-9816-59dc338f7ae5")
+	)
+	(wire
+		(pts
+			(xy 135.89 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a788117-4355-4c16-a6a6-6c6d9f0c3413")
+	)
+	(wire
+		(pts
+			(xy 69.85 99.06) (xy 69.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1100c797-74b3-4b26-b703-61ae47ab5ea8")
+	)
+	(wire
+		(pts
+			(xy 54.61 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ff8b9d-f8e7-4b1d-9846-71008a76db9b")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 170.18 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22197d9d-165d-457c-8f2e-82d023125c83")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bf07a3-9099-4a97-97cd-d4c491d6f513")
+	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3547207d-7c04-4501-8c9b-16fd6481c70c")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f89c05-6835-495c-aefa-c3fce56a07b1")
+	)
+	(wire
+		(pts
+			(xy 204.47 76.2) (xy 204.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d15b7b8-0209-4c0a-866b-1c35be99e0a1")
+	)
+	(wire
+		(pts
+			(xy 120.65 104.14) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3efed56e-a3b7-4ab5-9d1f-00e82cb13744")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc23d06-2f92-4d47-8348-a858b9a5e194")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dd12c5-433b-4541-9517-af1e82eec492")
+	)
+	(wire
+		(pts
+			(xy 101.6 101.6) (xy 104.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "458523e3-46ce-43fe-be91-5d1276d65fe0")
+	)
+	(wire
+		(pts
+			(xy 101.6 96.52) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e260fd-a82d-486e-afbf-b0f51c8442f8")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.2) (xy 54.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eab798e-9106-4f53-8079-05af3e05f286")
+	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59df82e9-092c-446a-96d7-ef6250bdbebc")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c46d292-f8a2-4e27-87f4-83cf7f609ec5")
+	)
+	(wire
+		(pts
+			(xy 43.18 92.71) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c9038b-972f-4557-96ec-20800db7e910")
+	)
+	(wire
+		(pts
+			(xy 170.18 76.2) (xy 204.47 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63aa55b2-8036-4933-895b-a19ea082b050")
+	)
+	(wire
+		(pts
+			(xy 189.23 110.49) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651c77c9-0275-4320-8fb5-8ec0ec5b1915")
+	)
+	(wire
+		(pts
+			(xy 54.61 83.82) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66852fce-50cf-4938-8731-f66888d66181")
+	)
+	(wire
+		(pts
+			(xy 43.18 76.2) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672341f0-5a97-4a24-9bb3-4798e9a80190")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f67b047-cedf-417e-8b19-4ab94d320b27")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2e6da4-5f4b-42b4-b37e-4b2ac1cca316")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 86.36 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9a1096-222f-418d-969b-d6a544f0a41e")
+	)
+	(wire
+		(pts
+			(xy 170.18 96.52) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859eb359-f11a-4b37-9c86-1930a11eb86f")
+	)
+	(wire
+		(pts
+			(xy 135.89 76.2) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3656ec-3ce1-4e29-a7c4-4aa6eaa5ef8a")
+	)
+	(wire
+		(pts
+			(xy 43.18 74.93) (xy 43.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96034b94-a3c2-4c4c-9973-3333f915a11f")
+	)
+	(wire
+		(pts
+			(xy 64.77 120.65) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "968fa890-cf84-4dd5-93c0-09a16cc268e3")
+	)
+	(wire
+		(pts
+			(xy 64.77 85.09) (xy 64.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997aa786-2adf-4d1e-a785-b3e1f0689140")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 54.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b7252f-1712-4060-8f19-878c05b7ad0e")
+	)
+	(wire
+		(pts
+			(xy 54.61 85.09) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a044190e-5f70-4fb8-a661-0ed84a5b5569")
+	)
+	(wire
+		(pts
+			(xy 54.61 85.09) (xy 64.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a28d08-d40e-4f9a-bb70-14fcb9a2786e")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a99b2405-5ee9-474d-94ea-9919979bbf8e")
+	)
+	(wire
+		(pts
+			(xy 204.47 96.52) (xy 204.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b209ae9c-8182-4265-8a7a-428c9638289f")
+	)
+	(wire
+		(pts
+			(xy 135.89 96.52) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b58ceb24-2a70-42b1-b211-eb1dac273685")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 189.23 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa21947-1577-43b4-8db2-df219ebd8159")
+	)
+	(wire
+		(pts
+			(xy 54.61 76.2) (xy 54.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c520263a-d0c4-44f0-98a7-378cb7f10e38")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcf1196-0f95-4f6f-ad73-f2eafabea6d3")
+	)
+	(wire
+		(pts
+			(xy 69.85 109.22) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fb66aa-dee4-4790-b9f9-5ae1fdf43620")
+	)
+	(wire
+		(pts
+			(xy 154.94 110.49) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d184296c-9847-4b5f-98d8-d82d29cf0331")
+	)
+	(wire
+		(pts
+			(xy 69.85 120.65) (xy 69.85 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d8b4f8-62eb-442c-b48a-9b5c759e6fea")
+	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 43.18 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8d8acc-7e58-48a9-b16a-a157ff3b6edc")
+	)
+	(wire
+		(pts
+			(xy 85.09 99.06) (xy 86.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2842098-dbac-4c14-b499-29026568be72")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f57b3602-48d0-40a6-a538-b6e316250494")
+	)
+	(wire
+		(pts
+			(xy 69.85 119.38) (xy 69.85 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff60d3d1-f943-465f-b5cc-ab04fd0e3089")
+	)
+	(hierarchical_label "VA_H"
+		(shape input)
+		(at 69.85 99.06 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "016a86cc-9f3e-410f-aad5-6a26150d1779")
+	)
+	(hierarchical_label "VB_H"
+		(shape input)
+		(at 43.18 74.93 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d8268a6-944c-495c-a2ad-46fc1167cc96")
+	)
+	(hierarchical_label "VA_L"
+		(shape output)
+		(at 69.85 121.92 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "430f4339-dc1e-40cc-b342-e7fd23dd8b95")
+	)
+	(hierarchical_label "VB_L"
+		(shape output)
+		(at 43.18 95.25 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d7c9286-b442-4d24-9e07-f36bbf798d26")
+	)
+	(hierarchical_label "OUT3"
+		(shape output)
+		(at 172.72 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e21f7cd-a8f4-47b5-a13e-30031f2abfcc")
+	)
+	(hierarchical_label "OUT1"
+		(shape output)
+		(at 104.14 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ed6b1b4-7c34-46aa-9663-096de61ebe82")
+	)
+	(hierarchical_label "OUT4"
+		(shape output)
+		(at 207.01 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "686bfbe2-abc3-4d7e-8e92-53e7c2c2d532")
+	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 85.09 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bdcd598-8a4e-4b1a-b291-68406d7fab86")
+	)
+	(hierarchical_label "OUT2"
+		(shape output)
+		(at 138.43 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1a82706-b4f6-4471-8c8d-8ac342c5be2d")
+	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 119.38 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5f9db99-9417-4cf5-88d5-4bb91fa0f70c")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 153.67 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c9db90-7b63-4a9e-926f-4d3743cada0d")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 187.96 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd417606-41e0-402a-9b4f-e1bc1b8a6e99")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 80.01 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ad8d7c7-1c41-456a-863f-9552efe9a6e1")
+		(property "Netclass" "SIG"
+			(at 80.7085 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08ceb72a-9529-4b3b-8c11-7c3ca9704ea5")
+		(property "Reference" "R3"
+			(at 72.39 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 72.39 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.866 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "474ee4fd-9534-493f-8e2c-4304a32d76a2")
+		)
+		(pin "2"
+			(uuid "df463d8c-97a5-4959-b60c-3250c3266078")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 69.85 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e697fd-ee6a-4952-bcdf-beb1f16c5001")
+		(property "Reference" "R5"
+			(at 72.39 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 72.39 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.866 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c577bdfa-58ea-4cb1-afa2-be0e723c73d5")
+		)
+		(pin "2"
+			(uuid "f7783f17-656f-4007-be52-349c8235603f")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R11")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09f8a9a5-45b5-45a3-a269-46dfe738dadd")
+		(property "Reference" "R6"
+			(at 104.14 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 104.14 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.616 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5687b8bc-0e62-4751-9570-8cb1130af11a")
+		)
+		(pin "2"
+			(uuid "efb87e20-68c3-47a2-baf0-75fbc9eb9cbc")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 128.27 101.6 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cdd62df-a144-48f7-80fb-b9fcdb2b17f4")
+		(property "Reference" "U33"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 128.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm339"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM339APWR"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc07bac6-057b-4621-a014-14006a89a0d9")
+		)
+		(pin "7"
+			(uuid "330d31a3-bc5f-4e26-b819-3fbd80401f23")
+		)
+		(pin "2"
+			(uuid "bc8d0b4d-51be-4f18-b703-842ae4192924")
+		)
+		(pin "10"
+			(uuid "9aaffa70-da56-4601-b0a2-39c2fe971499")
+		)
+		(pin "8"
+			(uuid "40e6b45c-dbdd-46e4-a271-e67da53804c2")
+		)
+		(pin "3"
+			(uuid "09559388-a240-4ecc-9ba8-c8788d6b9466")
+		)
+		(pin "6"
+			(uuid "bdc05981-5526-41ee-bcfa-661715e9fe07")
+		)
+		(pin "13"
+			(uuid "db04d34c-ba90-4f59-9873-9f734cef3ad6")
+		)
+		(pin "9"
+			(uuid "c024d500-9201-4bf0-b963-acb4d50d7695")
+		)
+		(pin "5"
+			(uuid "6d8ef48c-d99e-44a8-b82f-0559e1b41a9d")
+		)
+		(pin "14"
+			(uuid "194cf566-da57-467a-907d-0d76a5648556")
+		)
+		(pin "11"
+			(uuid "e411b9b7-a7bd-4883-89db-05731ef373c2")
+		)
+		(pin "1"
+			(uuid "6a963db5-3b79-48ed-8e1c-c3a4c9f8f443")
+		)
+		(pin "12"
+			(uuid "15a93f92-9270-4c4c-9b65-88b3beadc5b5")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "U34")
+					(unit 2)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "U36")
+					(unit 2)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "U35")
+					(unit 2)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "U33")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 93.98 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7398f486-311e-472c-9b57-cacf94c18fee")
+		(property "Reference" "U33"
+			(at 93.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 93.98 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 92.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm339"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM339APWR"
+			(at 93.98 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "39f70ae9-0373-42f9-b620-e420173b18df")
+		)
+		(pin "7"
+			(uuid "63dd3245-d488-4e4d-a333-3306d100494f")
+		)
+		(pin "2"
+			(uuid "b19bb2f4-4039-4104-a375-e9250702bebf")
+		)
+		(pin "10"
+			(uuid "9aaffa70-da56-4601-b0a2-39c2fe97149a")
+		)
+		(pin "8"
+			(uuid "40e6b45c-dbdd-46e4-a271-e67da53804c3")
+		)
+		(pin "3"
+			(uuid "09559388-a240-4ecc-9ba8-c8788d6b9467")
+		)
+		(pin "6"
+			(uuid "07c5d7ca-d7d4-4b86-b005-d26335a49e3e")
+		)
+		(pin "13"
+			(uuid "db04d34c-ba90-4f59-9873-9f734cef3ad7")
+		)
+		(pin "9"
+			(uuid "c024d500-9201-4bf0-b963-acb4d50d7696")
+		)
+		(pin "5"
+			(uuid "f16397c7-0d71-4df2-994f-7a56272bb890")
+		)
+		(pin "14"
+			(uuid "194cf566-da57-467a-907d-0d76a5648557")
+		)
+		(pin "11"
+			(uuid "e411b9b7-a7bd-4883-89db-05731ef373c3")
+		)
+		(pin "1"
+			(uuid "c8c0c025-8d04-4632-a323-d801b7683a7d")
+		)
+		(pin "12"
+			(uuid "15a93f92-9270-4c4c-9b65-88b3beadc5b6")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "U34")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "U36")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "U35")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "764b8334-b1e3-4658-a7b2-554906e34d39")
+		(property "Reference" "C46"
+			(at 57.15 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.15 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0988f9a5-8e06-423f-bd84-f7762222eadb")
+		)
+		(pin "2"
+			(uuid "d6ef2ca8-f599-4493-b951-c2037eeccbc6")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "C50")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 204.47 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f491cab-6d98-44ae-9411-247c19148c72")
+		(property "Reference" "R9"
+			(at 207.01 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 207.01 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 205.486 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 204.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fdc3d04-3b0c-43f7-b4d3-1e7bfda1e698")
+		)
+		(pin "2"
+			(uuid "f7f06bd0-75e3-4f3a-a451-9505cfec20fa")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R31")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 170.18 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c5d474-a21b-4f3b-932f-31a35d711d2a")
+		(property "Reference" "R8"
+			(at 172.72 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 172.72 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 171.196 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee0a6c25-54ce-46df-90ba-9b751047017c")
+		)
+		(pin "2"
+			(uuid "f05eb133-14c9-4d76-8859-259f6adab042")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R14")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 162.56 101.6 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba2d071-5068-47e7-8b45-0f62e54a5757")
+		(property "Reference" "U33"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 162.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm339"
+			(at 163.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM339APWR"
+			(at 162.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc07bac6-057b-4621-a014-14006a89a0da")
+		)
+		(pin "7"
+			(uuid "63dd3245-d488-4e4d-a333-3306d1004950")
+		)
+		(pin "2"
+			(uuid "bc8d0b4d-51be-4f18-b703-842ae4192925")
+		)
+		(pin "10"
+			(uuid "53cb9d1f-c23d-4490-b5cc-7e85d7fb2881")
+		)
+		(pin "8"
+			(uuid "40e6b45c-dbdd-46e4-a271-e67da53804c4")
+		)
+		(pin "3"
+			(uuid "09559388-a240-4ecc-9ba8-c8788d6b9468")
+		)
+		(pin "6"
+			(uuid "07c5d7ca-d7d4-4b86-b005-d26335a49e3f")
+		)
+		(pin "13"
+			(uuid "732cc861-1e45-4dd6-a710-22c91c29fd24")
+		)
+		(pin "9"
+			(uuid "c024d500-9201-4bf0-b963-acb4d50d7697")
+		)
+		(pin "5"
+			(uuid "6d8ef48c-d99e-44a8-b82f-0559e1b41a9e")
+		)
+		(pin "14"
+			(uuid "194cf566-da57-467a-907d-0d76a5648558")
+		)
+		(pin "11"
+			(uuid "3b3fd191-0735-4322-b023-9290d13b2d0c")
+		)
+		(pin "1"
+			(uuid "c8c0c025-8d04-4632-a323-d801b7683a7e")
+		)
+		(pin "12"
+			(uuid "15a93f92-9270-4c4c-9b65-88b3beadc5b7")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "U34")
+					(unit 3)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "U36")
+					(unit 3)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "U35")
+					(unit 3)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "U33")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 196.85 101.6 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7517f03-39e6-42fb-811d-863db6f2ffd7")
+		(property "Reference" "U33"
+			(at 196.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 196.85 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm339"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM339APWR"
+			(at 196.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc07bac6-057b-4621-a014-14006a89a0db")
+		)
+		(pin "7"
+			(uuid "63dd3245-d488-4e4d-a333-3306d1004951")
+		)
+		(pin "2"
+			(uuid "bc8d0b4d-51be-4f18-b703-842ae4192926")
+		)
+		(pin "10"
+			(uuid "9aaffa70-da56-4601-b0a2-39c2fe97149b")
+		)
+		(pin "8"
+			(uuid "6c14bda3-728d-4143-ba6e-acce7cdf5fdc")
+		)
+		(pin "3"
+			(uuid "09559388-a240-4ecc-9ba8-c8788d6b9469")
+		)
+		(pin "6"
+			(uuid "07c5d7ca-d7d4-4b86-b005-d26335a49e40")
+		)
+		(pin "13"
+			(uuid "db04d34c-ba90-4f59-9873-9f734cef3ad8")
+		)
+		(pin "9"
+			(uuid "b9a6f68b-f1c8-473b-ae3f-94fc140c1fe7")
+		)
+		(pin "5"
+			(uuid "6d8ef48c-d99e-44a8-b82f-0559e1b41a9f")
+		)
+		(pin "14"
+			(uuid "a210c01b-a2b5-4fce-b05b-00309eb9d4c8")
+		)
+		(pin "11"
+			(uuid "e411b9b7-a7bd-4883-89db-05731ef373c4")
+		)
+		(pin "1"
+			(uuid "c8c0c025-8d04-4632-a323-d801b7683a7f")
+		)
+		(pin "12"
+			(uuid "15a93f92-9270-4c4c-9b65-88b3beadc5b8")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "U34")
+					(unit 4)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "U36")
+					(unit 4)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "U35")
+					(unit 4)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "U33")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 45.72 85.09 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5637608-e39e-4dd4-98d4-3cd8a0020d65")
+		(property "Reference" "U33"
+			(at 44.45 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM339"
+			(at 44.45 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 44.45 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm339"
+			(at 46.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "LM339APWR"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc07bac6-057b-4621-a014-14006a89a0dc")
+		)
+		(pin "7"
+			(uuid "63dd3245-d488-4e4d-a333-3306d1004952")
+		)
+		(pin "2"
+			(uuid "bc8d0b4d-51be-4f18-b703-842ae4192927")
+		)
+		(pin "10"
+			(uuid "9aaffa70-da56-4601-b0a2-39c2fe97149c")
+		)
+		(pin "8"
+			(uuid "40e6b45c-dbdd-46e4-a271-e67da53804c5")
+		)
+		(pin "3"
+			(uuid "7e55d10f-7b81-4bcc-ad7e-af08d96177b0")
+		)
+		(pin "6"
+			(uuid "07c5d7ca-d7d4-4b86-b005-d26335a49e41")
+		)
+		(pin "13"
+			(uuid "db04d34c-ba90-4f59-9873-9f734cef3ad9")
+		)
+		(pin "9"
+			(uuid "c024d500-9201-4bf0-b963-acb4d50d7698")
+		)
+		(pin "5"
+			(uuid "6d8ef48c-d99e-44a8-b82f-0559e1b41aa0")
+		)
+		(pin "14"
+			(uuid "194cf566-da57-467a-907d-0d76a5648559")
+		)
+		(pin "11"
+			(uuid "e411b9b7-a7bd-4883-89db-05731ef373c5")
+		)
+		(pin "1"
+			(uuid "c8c0c025-8d04-4632-a323-d801b7683a80")
+		)
+		(pin "12"
+			(uuid "c4258c8b-159d-4001-b8c4-4cbdcac3f358")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "U34")
+					(unit 5)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "U36")
+					(unit 5)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "U35")
+					(unit 5)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "U33")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d166a6-a33c-49ed-a9da-de3302e6aa83")
+		(property "Reference" "C45"
+			(at 57.15 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.15 82.5562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e5a24e4-52ba-481f-8482-a8de0e09d03e")
+		)
+		(pin "2"
+			(uuid "6d2e92ec-a74e-407d-b14a-7cf1a9e7fd9a")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "C49")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "C57")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 135.89 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feaad3e9-be1d-4a68-947c-c9d84e274b8a")
+		(property "Reference" "R7"
+			(at 138.43 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 138.43 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.906 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c61869da-9bdf-41ac-b440-a54e4c7348e7")
+		)
+		(pin "2"
+			(uuid "f764081c-59ce-4834-b60b-11c39c1fb16d")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/504ae2a5-4f1e-4985-870c-4e19e1e2f74c"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b471d865-d22f-4db3-b8b2-430778135e2f"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/b986ee61-8b4e-4b64-a682-c57eafb9f361"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09/5196eb68-57b3-49da-ab2d-c431071d8483/d8b60c1c-cf03-4487-a6a4-ce213ce2ac3f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

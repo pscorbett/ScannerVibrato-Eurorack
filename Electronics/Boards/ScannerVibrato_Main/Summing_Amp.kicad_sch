@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4ed12c20-2dee-49f3-983f-25be6ea6aa9b")
+	(paper "A4")
+	(title_block
+		(company "Osprey Instruments")
+	)
+	(lib_symbols)
+)

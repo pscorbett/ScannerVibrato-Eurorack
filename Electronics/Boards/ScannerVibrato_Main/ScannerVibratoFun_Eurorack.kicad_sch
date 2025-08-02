@@ -1,0 +1,4568 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4114a275-b6fc-4e8b-91a8-ec6980a0ff09")
+	(paper "USLetter")
+	(title_block
+		(title "Solid State Scanner Vibrato")
+		(date "2024-10-27")
+		(company "Osprey Instruments")
+	)
+	(lib_symbols
+		(symbol "Amplifier_Operational:TL074"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TL074"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL074_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TL074_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMAJ24CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ24CA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ24CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ24CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "Rescale from +/-5V to +/-1V (gain = 0.212)\nReamplified to +/-5V on VCA sheet."
+		(exclude_from_sim no)
+		(at 90.17 29.845 0)
+		(size 52.07 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8afc80cb-67d8-48f9-a1cb-909b7acc6c29")
+	)
+	(junction
+		(at 251.46 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01518e48-ad74-46cc-a337-2142399e7be4")
+	)
+	(junction
+		(at 119.38 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b2f5b30-0947-4fb8-8e31-e6d4ed80e9b9")
+	)
+	(junction
+		(at 36.83 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118747ed-e15f-469d-8264-3dc9b8fcf66d")
+	)
+	(junction
+		(at 130.81 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fce59fa-6fad-4dcb-b1d1-f87b46682061")
+	)
+	(junction
+		(at 25.4 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36ece171-76a7-43e5-bbec-003394a00993")
+	)
+	(junction
+		(at 66.04 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3afd5ef0-4232-429d-866e-b476ecd017f5")
+	)
+	(junction
+		(at 90.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "469ca6ea-e773-4fa3-96b3-d217835daaa1")
+	)
+	(junction
+		(at 123.19 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fdf816a-7258-43b3-9b3b-39f27d431ae2")
+	)
+	(junction
+		(at 81.28 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53045053-4b9e-494f-b9d7-ea2f3b362375")
+	)
+	(junction
+		(at 130.81 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c0f7b9f-a20c-418d-a31f-cbe86a4c5975")
+	)
+	(junction
+		(at 226.06 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cd632cd-c6d1-4b87-8a3c-1573f7ea2605")
+	)
+	(junction
+		(at 128.27 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eaeeb43-3268-4c81-a463-df68d1507722")
+	)
+	(junction
+		(at 125.73 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3572d05-1968-41bf-8ff0-f30d94f5df4f")
+	)
+	(junction
+		(at 25.4 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c831392b-7006-4495-a55f-1a415056b5c3")
+	)
+	(junction
+		(at 128.27 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccfe99db-da83-4d59-bf53-9ee5e159e43d")
+	)
+	(junction
+		(at 226.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1e9f5b1-4a79-4291-b455-b394984156e1")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 191.135 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0507a6db-9127-4fda-b84e-97ae67dd2fe9")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05952b58-02e7-468d-9f07-155813a54a03")
+	)
+	(wire
+		(pts
+			(xy 181.61 97.79) (xy 191.135 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf97537-c47c-4f63-800e-df592ea4cfe8")
+	)
+	(wire
+		(pts
+			(xy 133.35 180.34) (xy 148.59 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f615fd6-c6da-4d4d-8ab6-7ec1a75e52b7")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 124.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10675720-f673-4696-bc75-a9791dbf1482")
+	)
+	(wire
+		(pts
+			(xy 25.4 100.33) (xy 43.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141b535d-e77d-4610-8b45-1eb230ae6e50")
+	)
+	(wire
+		(pts
+			(xy 226.06 114.3) (xy 251.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "141ca6dc-521e-423e-be0f-1919491c5ff1")
+	)
+	(bus
+		(pts
+			(xy 123.19 125.73) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7acb58-0cff-408f-98ca-1658273c67db")
+	)
+	(wire
+		(pts
+			(xy 58.42 149.86) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20344ac4-207f-40ac-afa0-6122b980c92e")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 81.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2817e718-d483-45e1-ba9b-7d149d46e654")
+	)
+	(bus
+		(pts
+			(xy 111.76 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285dc7f6-fe3a-443c-b6b2-7568ce09f228")
+	)
+	(bus
+		(pts
+			(xy 125.73 123.19) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29dc7f76-ff8e-47a8-bd47-12b29bb9d087")
+	)
+	(wire
+		(pts
+			(xy 119.38 52.07) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4b1694-d760-4635-b9e1-12a8785222f9")
+	)
+	(bus
+		(pts
+			(xy 128.27 120.65) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422b3c65-172c-4e90-88f7-71908870acd7")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44443423-11d6-42d4-92ce-2b07fd9eb7ef")
+	)
+	(wire
+		(pts
+			(xy 251.46 121.92) (xy 251.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ef0b58-110a-4bb0-99bf-88e47aefc842")
+	)
+	(wire
+		(pts
+			(xy 58.42 95.25) (xy 66.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0d0bff-cda2-498c-aaf1-1427749e0dc1")
+	)
+	(wire
+		(pts
+			(xy 90.17 71.12) (xy 90.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae9d056-e31a-49ed-bb2d-9844510c018b")
+	)
+	(wire
+		(pts
+			(xy 104.14 52.07) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d955e8-c684-4f61-a47c-a1eec98574b4")
+	)
+	(wire
+		(pts
+			(xy 215.9 114.3) (xy 226.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a172abf-7c89-4752-83cd-e42bc762081f")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 66.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9141c7-9396-4443-8f74-d9e1d41a6ba5")
+	)
+	(wire
+		(pts
+			(xy 81.28 49.53) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2e4a9c-dfd9-43a4-8732-6511fc2fdf35")
+	)
+	(wire
+		(pts
+			(xy 246.38 116.84) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ead8e14-f78c-4509-b800-ee3a3dda3088")
+	)
+	(wire
+		(pts
+			(xy 128.27 147.32) (xy 191.135 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f667518-8bf6-459a-bdfd-c75d5784eb81")
+	)
+	(wire
+		(pts
+			(xy 226.06 132.08) (xy 251.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614d5960-36af-41b1-a8ef-908f618b7be6")
+	)
+	(bus
+		(pts
+			(xy 130.81 95.25) (xy 137.16 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a1137b-f68c-41e2-bbed-2702b81eba5c")
+	)
+	(bus
+		(pts
+			(xy 111.76 100.33) (xy 125.73 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64ac003f-65a6-4c17-aa52-2dc67155f565")
+	)
+	(wire
+		(pts
+			(xy 25.4 49.53) (xy 25.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68640ff4-4a46-4626-b82a-c22f2b534e60")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 66.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f292c93-442b-4a9e-bc8a-928f1059bc0d")
+	)
+	(bus
+		(pts
+			(xy 123.19 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7158268f-bac2-4cd2-ad45-59948fed8d50")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 46.99 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e255d6-c00e-49c8-b8a2-919c9fd3ac24")
+	)
+	(wire
+		(pts
+			(xy 130.81 149.86) (xy 191.135 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e8aaaa-5bcf-4911-820d-58dcbb497d1e")
+	)
+	(wire
+		(pts
+			(xy 137.16 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fc0670-7c0e-4e18-8260-37428f293c25")
+	)
+	(wire
+		(pts
+			(xy 148.59 180.34) (xy 148.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e40899e-6c54-40fa-8d56-204ab9a78a08")
+	)
+	(wire
+		(pts
+			(xy 215.9 132.08) (xy 226.06 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c2abf4-7d8f-4321-b060-b5775f1f3a12")
+	)
+	(bus
+		(pts
+			(xy 111.76 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b50024-bc8b-4b38-9fb1-c29f18e56d07")
+	)
+	(wire
+		(pts
+			(xy 130.81 133.35) (xy 130.81 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fe4fd7-357f-4c9e-a4aa-3b0cb081c83a")
+	)
+	(bus
+		(pts
+			(xy 130.81 95.25) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cfb6160-db82-4111-85f3-22478de18b61")
+	)
+	(wire
+		(pts
+			(xy 133.35 184.15) (xy 133.35 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c3e7ad-aecb-47b8-a91f-08bb75c819ae")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 137.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cc681b-2bc2-4bfe-8f10-409a54b6258a")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 104.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a066d87e-ff0d-4904-9030-1893fa938d0a")
+	)
+	(wire
+		(pts
+			(xy 81.28 39.37) (xy 81.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a147be5f-198b-49fa-bf9d-0fc92dfbd83a")
+	)
+	(wire
+		(pts
+			(xy 90.17 60.96) (xy 90.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22a8490-a6bb-49a0-abd3-6076c4b21389")
+	)
+	(bus
+		(pts
+			(xy 128.27 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f58331-9711-40e7-9a04-344505a0cde6")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a844cf96-472b-48fd-9ecd-ad4ca42dfafa")
+	)
+	(wire
+		(pts
+			(xy 36.83 46.99) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d3504b-8503-49be-a228-1f8e813fa68f")
+	)
+	(wire
+		(pts
+			(xy 58.42 147.32) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14d35a8-e2d5-4b49-84a3-706cb5cde6b7")
+	)
+	(bus
+		(pts
+			(xy 137.16 123.19) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3581e5f-34ee-4724-b7a6-545d16da4c4c")
+	)
+	(wire
+		(pts
+			(xy 181.61 95.25) (xy 191.135 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b05454-7e69-40a9-859e-d25ccafea4f3")
+	)
+	(bus
+		(pts
+			(xy 111.76 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84aa3bb-8386-49a8-9975-8bb75b5066eb")
+	)
+	(wire
+		(pts
+			(xy 58.42 92.71) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c38ba048-e630-447a-b7c8-80141791d918")
+	)
+	(wire
+		(pts
+			(xy 62.23 46.99) (xy 66.04 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c572dd21-5a47-4fb6-ad64-4aed4211992c")
+	)
+	(bus
+		(pts
+			(xy 137.16 125.73) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c661b4e5-fd5e-466f-b277-9e716b73d663")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d0bea6-d08a-44fc-8e88-0cc4e440aa10")
+	)
+	(bus
+		(pts
+			(xy 125.73 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fdd9ba-3ad4-497e-89c5-322ff192919d")
+	)
+	(wire
+		(pts
+			(xy 137.16 130.81) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98d3842-1569-4b0d-9493-fbbae8f82731")
+	)
+	(wire
+		(pts
+			(xy 25.4 49.53) (xy 29.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9cd111b-6d88-4aa3-82de-3c7a60da0dc8")
+	)
+	(bus
+		(pts
+			(xy 130.81 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4b913b-05db-4d0c-96f0-946691d74b5c")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 104.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd51f77a-0314-44ec-82aa-754a7f21c592")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc5c4f7-cba2-42d2-9112-1988840ee423")
+	)
+	(wire
+		(pts
+			(xy 25.4 46.99) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb59c7f-4579-4a59-b3a6-9fe75eb3c261")
+	)
+	(bus
+		(pts
+			(xy 128.27 120.65) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3333fe9-3842-4368-a615-e1b254245915")
+	)
+	(wire
+		(pts
+			(xy 52.07 46.99) (xy 54.61 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38a75dd-d818-43ca-9ffb-4d2c95e172b3")
+	)
+	(wire
+		(pts
+			(xy 25.4 100.33) (xy 25.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56752a7-79c6-4532-acbd-6ab32e65e8ef")
+	)
+	(wire
+		(pts
+			(xy 251.46 116.84) (xy 246.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61ba519-ac0e-4263-b678-93d1d8777738")
+	)
+	(wire
+		(pts
+			(xy 181.61 90.17) (xy 191.135 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f00643af-2c7c-49f8-9086-4d2dcce8234d")
+	)
+	(wire
+		(pts
+			(xy 25.4 54.61) (xy 25.4 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80b20ed-01fc-430c-b208-6eba53200418")
+	)
+	(wire
+		(pts
+			(xy 25.4 115.57) (xy 25.4 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdba8baa-2101-4505-aec0-b01a13c9c492")
+	)
+	(label "Input"
+		(at 30.48 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d2114d5-141c-41c3-a12d-4e568a8f4aca")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 53.34 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c6d13f8-6133-47dc-bfb5-910d12606a3b")
+		(property "Netclass" "SIG"
+			(at 54.0385 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 66.04 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "161e02ec-bae0-4eb5-81aa-e73aed870c9b")
+		(property "Netclass" "SIG"
+			(at 66.7385 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 148.59 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19b21dbc-4af9-4120-9ee2-741683c55536")
+		(property "Netclass" "SIG"
+			(at 149.2885 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 90.17 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "450ed697-6749-4627-96eb-19d72d2c605a")
+		(property "Netclass" "SIG"
+			(at 90.8685 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 101.6 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ed2980c-ebad-4761-a001-e133d4ff6b63")
+		(property "Netclass" "SIG"
+			(at 102.2985 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 119.38 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5942b4b1-d61d-44fc-8c34-358b3fc1d42e")
+		(property "Netclass" "SIG"
+			(at 120.0785 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 226.06 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05efaa57-0487-48d7-bc95-04fe8fe04fae")
+		(property "Reference" "D19"
+			(at 228.6 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ24CA"
+			(at 228.6 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 231.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 226.06 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ac96d0f-a1f1-4847-9632-64214ae3d68a")
+		)
+		(pin "1"
+			(uuid "8ec6f963-28a1-401b-9299-9dae129a3f6c")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 256.54 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12499b5d-b0b4-47f7-9843-e2ca6ae7aeaa")
+		(property "Reference" "J3"
+			(at 256.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sig Outputs"
+			(at 256.54 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Osprey:IO_Jack_Header"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Input Daughter Board"
+			(at 256.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ce354b82-2a4c-4620-9ae1-f4ad0ce4d857")
+		)
+		(pin "1"
+			(uuid "ed532df0-81d6-46ce-9f45-2a96a44f6866")
+		)
+		(pin "3"
+			(uuid "de08158d-e998-49a7-a1dc-1570cef77026")
+		)
+		(pin "2"
+			(uuid "379461ee-0021-4437-bdc2-33fcdcbae08d")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 20.32 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec4951b-9527-409a-b6da-fed175676f8b")
+		(property "Reference" "J2"
+			(at 20.32 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sig Inputs"
+			(at 20.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Osprey:IO_Jack_Header"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Input Daughter Board"
+			(at 20.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0d03df4e-b204-411a-8771-503c06be9b53")
+		)
+		(pin "1"
+			(uuid "1e03bf42-6aef-43df-a2f7-96b912d42347")
+		)
+		(pin "3"
+			(uuid "f44c69b3-b798-4f0c-9281-7dea099d577a")
+		)
+		(pin "2"
+			(uuid "9780a020-43d1-4233-ac0c-93ac8074c991")
+		)
+		(instances
+			(project ""
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 226.06 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb5b48d-aee0-4978-91d5-f148aa2004ee")
+		(property "Reference" "D18"
+			(at 228.6 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ24CA"
+			(at 228.6 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 231.14 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ca0e6b4-d982-4e48-99b1-2641388899cc")
+		)
+		(pin "1"
+			(uuid "f8a7d89e-b9e4-474c-b74e-74f72606f328")
+		)
+		(instances
+			(project ""
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bcc4f92-df98-41d2-80db-d8f07be32ea0")
+		(property "Reference" "#PWR0208"
+			(at 133.35 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa18e6f9-8a00-4aad-83e4-64841695f9e5")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35cf4033-34d8-434d-a791-bd5735f6578f")
+		(property "Reference" "#PWR0202"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "928a8f24-9da1-4596-b39a-a97daaf3ff12")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 111.76 59.69 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ef14018-2122-4eb6-ab8e-80fd080e9216")
+		(property "Reference" "U41"
+			(at 115.57 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 115.57 64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 110.49 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074HIPWR"
+			(at 111.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "3c2feabc-08fd-4053-8334-7a3fb74bb09e")
+		)
+		(pin "14"
+			(uuid "ee5c21a5-ba43-4027-93e1-191cf0346c20")
+		)
+		(pin "2"
+			(uuid "c34d1994-5a1b-4314-bef7-9c3679e3092c")
+		)
+		(pin "10"
+			(uuid "08370230-4eef-4d1a-9bc2-d1e2f5c96de2")
+		)
+		(pin "8"
+			(uuid "e44040b7-c92c-4855-9a4c-527f300507dc")
+		)
+		(pin "11"
+			(uuid "d311f6d1-22ec-47e9-ac33-e18eee600258")
+		)
+		(pin "1"
+			(uuid "e75e6444-4af7-4335-b924-48dc09a80497")
+		)
+		(pin "6"
+			(uuid "dd281469-3a9b-4b57-9504-8f2d981fd620")
+		)
+		(pin "9"
+			(uuid "a8a0d818-1c35-43b3-8cf5-b80381f2447f")
+		)
+		(pin "3"
+			(uuid "bfd5c1aa-f88a-425d-b4ee-d188e304d488")
+		)
+		(pin "5"
+			(uuid "6fbe5747-4b5d-447b-9f8e-211e01c9c19d")
+		)
+		(pin "13"
+			(uuid "10d5939a-97b3-4f78-96ee-d01caef8a134")
+		)
+		(pin "4"
+			(uuid "9fde7a4f-94f5-4e12-8f31-e92dc7a091bf")
+		)
+		(pin "7"
+			(uuid "c1b2e968-5640-4c43-9704-7e6161cacab1")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "U41")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 73.66 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54145b8e-4fb2-4222-91f1-423e55f754e9")
+		(property "Reference" "R132"
+			(at 73.406 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56k"
+			(at 73.406 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 73.914 38.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 73.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1051498c-174e-48f6-9d11-3220893f6a9b")
+		)
+		(pin "2"
+			(uuid "a35496c2-f59f-47b9-8852-567bde657727")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "R132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b56fc78-2211-4411-bd17-36e7bccf751f")
+		(property "Reference" "#PWR0207"
+			(at 25.4 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0db559f6-6e37-4d74-9722-89656a14e82e")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 49.53 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb59f4b-9f25-498f-9dc3-e5f11ed20f92")
+		(property "Reference" "C100"
+			(at 49.5363 40.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 49.5363 42.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a176b838-b94a-4175-958e-170784e72169")
+		)
+		(pin "2"
+			(uuid "5e772236-d5c9-4530-8c76-fffc37e76809")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 73.66 49.53 0)
+		(mirror x)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65fa186c-b4df-4787-9277-91164a6889c4")
+		(property "Reference" "U41"
+			(at 77.216 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 77.216 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 72.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
+			(at 74.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074HIPWR"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "93b079bc-de94-436e-bd79-7c7042366668")
+		)
+		(pin "14"
+			(uuid "b95e5afd-498d-44e8-80cd-0c5e497f06ae")
+		)
+		(pin "2"
+			(uuid "c34d1994-5a1b-4314-bef7-9c3679e3092b")
+		)
+		(pin "10"
+			(uuid "50ded597-0d74-4c27-9a3e-2e4478e45672")
+		)
+		(pin "8"
+			(uuid "9d42f427-0a56-4fc9-8d9b-399393e02340")
+		)
+		(pin "11"
+			(uuid "d311f6d1-22ec-47e9-ac33-e18eee600257")
+		)
+		(pin "1"
+			(uuid "e75e6444-4af7-4335-b924-48dc09a80496")
+		)
+		(pin "6"
+			(uuid "dd281469-3a9b-4b57-9504-8f2d981fd61f")
+		)
+		(pin "9"
+			(uuid "fe5bc511-0396-4b9f-a81e-d2d1cf29f15d")
+		)
+		(pin "3"
+			(uuid "bfd5c1aa-f88a-425d-b4ee-d188e304d487")
+		)
+		(pin "5"
+			(uuid "6fbe5747-4b5d-447b-9f8e-211e01c9c19c")
+		)
+		(pin "13"
+			(uuid "0080cdcf-6f14-4831-8b5d-47c306e19774")
+		)
+		(pin "4"
+			(uuid "9fde7a4f-94f5-4e12-8f31-e92dc7a091be")
+		)
+		(pin "7"
+			(uuid "c1b2e968-5640-4c43-9704-7e6161cacab0")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "U41")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 90.17 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dda5380-1f56-4e93-92ff-15705b951ca8")
+		(property "Reference" "R133"
+			(at 92.71 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "82k"
+			(at 92.71 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 89.154 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 90.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d1d722-580a-4124-b716-794bb610f5d3")
+		)
+		(pin "2"
+			(uuid "e6fb086f-6eef-4290-bc02-1b1b9aa5bb68")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "R133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb790da-08d2-4b4d-b163-fc5abb01e3e7")
+		(property "Reference" "#PWR0204"
+			(at 226.06 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df385334-649c-4c82-8a89-34c7d7038a80")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a79215e-f1c0-4f1a-9dde-4389cb558959")
+		(property "Reference" "#PWR0205"
+			(at 226.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 226.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7be4a9-4707-4974-9b93-893f71c63e2b")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 90.17 67.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93dd24e5-dbc7-46c1-955c-d4a65bf6349c")
+		(property "Reference" "R134"
+			(at 92.71 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22k"
+			(at 92.71 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 89.154 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 90.17 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c5e5330-59d5-4a33-9e30-9548ad3a720a")
+		)
+		(pin "2"
+			(uuid "10669ce6-c753-487a-bf76-f32caa35cfa3")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "R134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a51144-9e38-4ad7-9ccb-ece2186ca282")
+		(property "Reference" "#PWR0206"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92ab148-4c3d-4022-ae30-50c28971d9fa")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df447d8-cd4e-4bdb-90f2-0ec68a94ec01")
+		(property "Reference" "#PWR0200"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05ae7c3c-7036-41bc-875d-6eea9be3d6ad")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 36.83 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3cae6a1-14c2-423a-9a1d-63d53ddf954c")
+		(property "Reference" "D20"
+			(at 39.37 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ24CA"
+			(at 39.37 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0882e920-5f32-42fa-8025-b00f2e44c195")
+		)
+		(pin "1"
+			(uuid "1714309c-b75e-49c6-9868-cd8e66494bee")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 128.27 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6d1cd39-da79-4ace-86c5-41445ad8b5e8")
+		(property "Reference" "R135"
+			(at 128.016 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 128.016 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 128.524 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 128.27 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0877aba-0686-402b-ba6b-1066a88f4e84")
+		)
+		(pin "2"
+			(uuid "da66d253-52e2-4a86-918b-77b53b7c255a")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ24CA")
+		(at 25.4 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb38d3e2-6345-4d9f-a8af-718638763945")
+		(property "Reference" "D21"
+			(at 20.32 110.744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ24CA"
+			(at 14.224 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 30.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 25.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 24.0Vr, SMA(DO-214AC)"
+			(at 25.4 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "308b0eda-4da3-4b75-9c41-ac0cced8fea4")
+		)
+		(pin "1"
+			(uuid "19624906-fa8d-41a9-a25c-5203f66c2248")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea985e85-dbd2-41f2-952a-aa589198570a")
+		(property "Reference" "#PWR0198"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969a8f9a-1ca2-4d76-8302-c74ace1fd259")
+		)
+		(instances
+			(project ""
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f289ceeb-9e43-4fb0-9568-cc580bc592c8")
+		(property "Reference" "#PWR0199"
+			(at 29.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d345b208-1ce2-4ee2-91d1-5e89f2c70c6f")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 58.42 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbb06b58-183a-4328-9cea-b85b8f0e243e")
+		(property "Reference" "R131"
+			(at 58.166 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56k"
+			(at 58.166 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.674 45.974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 58.42 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4891bd-77fc-4c3a-8b60-c655aa6514d6")
+		)
+		(pin "2"
+			(uuid "7a24bdf8-91ff-4337-b017-6272949dd263")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "R131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TL074")
+		(at 140.97 186.69 0)
+		(mirror x)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe412b6d-dde6-4d4d-93fa-0e0766ce02a0")
+		(property "Reference" "U46"
+			(at 140.97 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL074"
+			(at 140.97 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 139.7 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl071h.pdf"
+			(at 142.24 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TL074HIPWR"
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "64717ef1-9565-4808-aa9e-bd413e342289")
+		)
+		(pin "2"
+			(uuid "59fad06b-3d9f-4beb-aab1-d90829d10022")
+		)
+		(pin "10"
+			(uuid "105099de-d932-41b1-b3a0-186d77a105fa")
+		)
+		(pin "8"
+			(uuid "f66b3d43-a59b-454c-be46-61709e97183e")
+		)
+		(pin "11"
+			(uuid "7d5d68d3-5825-4cb3-8ae7-aab8302690d8")
+		)
+		(pin "7"
+			(uuid "e56217a7-915b-41fb-9104-6b2c5cdc325d")
+		)
+		(pin "13"
+			(uuid "20d55a5f-895e-437a-a542-f79f351fd907")
+		)
+		(pin "3"
+			(uuid "cc27f6f7-e0ee-4a35-abd4-eb36cd97fffc")
+		)
+		(pin "9"
+			(uuid "72354e26-c434-4f8b-804b-20b23078a57a")
+		)
+		(pin "5"
+			(uuid "8861162c-fcce-407f-b8f1-a7154f29abe0")
+		)
+		(pin "6"
+			(uuid "ea15e1b0-3c14-4769-a4e1-d3931e5d7bbd")
+		)
+		(pin "1"
+			(uuid "ecd0de8a-b3fb-479e-b06a-dffc8d661c43")
+		)
+		(pin "14"
+			(uuid "e00eb2ff-7883-421b-92c9-26f2f034f1c1")
+		)
+		(pin "12"
+			(uuid "203f9823-e51b-49c6-acfe-195e38d269e3")
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(reference "U46")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 89.535)
+		(size 15.24 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33ad8eaa-d7c5-4e32-b706-2c40a841e922")
+		(property "Sheetname" "LFO"
+			(at 43.18 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LFO.kicad_sch"
+			(at 43.18 156.1596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{Triangle}" output
+			(at 58.42 149.86 0)
+			(uuid "c35e395f-5cef-4e43-bbeb-193f3ce16902")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Triangle" output
+			(at 58.42 147.32 0)
+			(uuid "65e056af-11ac-4337-8614-f72f5f2beb0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CT1_Q0" input
+			(at 58.42 92.71 0)
+			(uuid "7fc2c965-20ce-4990-a9e7-25c7899e1a64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CLK" output
+			(at 58.42 95.25 0)
+			(uuid "fe163364-71fc-4fa9-9090-1b055f909d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FREQ_CV" input
+			(at 43.18 100.33 180)
+			(uuid "589b5c7c-d1ad-4298-b00f-fa099487c9e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 89.535)
+		(size 45.72 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5196eb68-57b3-49da-ab2d-c431071d8483")
+		(property "Sheetname" "Counters"
+			(at 66.04 88.8234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Counters.kicad_sch"
+			(at 66.04 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 66.04 95.25 180)
+			(uuid "07812558-71cf-4c07-abd1-1d573046f031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXR_ODD_S[0..3]" output
+			(at 111.76 100.33 0)
+			(uuid "f86c6af5-ddc4-484c-b58d-1974336091ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X_TAP_MUXR_EVEN_S[0..3]" output
+			(at 111.76 102.87 0)
+			(uuid "1c390ea3-cbdf-4eaa-8b67-13bba5a3a2a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X_TAP_MUXL_EVEN_S[0..3]" output
+			(at 111.76 97.79 0)
+			(uuid "146638e3-3ed7-4afc-a79b-411e0e112026")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X_TAP_MUXL_ODD_S[0..3]" output
+			(at 111.76 95.25 0)
+			(uuid "0ccbbf38-d5e7-452f-9386-5d1cf10125e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CT1_Q0" output
+			(at 66.04 92.71 180)
+			(uuid "c6894aa4-81d2-45b8-9339-bf2e4d44cf63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.685 182.88)
+		(size 21.59 13.335)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55e1c83e-aa18-4fc9-a5d3-5557a8ec2b8f")
+		(property "Sheetname" "Timing Sheet"
+			(at 19.685 182.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Timing.kicad_sch"
+			(at 19.685 196.7996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.135 59.69)
+		(size 25.4 12.065)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73fb5c1c-880c-4f49-8a5b-b92032569126")
+		(property "Sheetname" "Power"
+			(at 191.135 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 191.135 72.3396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 53.34)
+		(size 44.45 52.705)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85402da4-e880-4829-92a0-49c2f80285a9")
+		(property "Sheetname" "Ladder + Mux"
+			(at 137.16 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ladder_MUX.kicad_sch"
+			(at 137.16 106.6296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LadderIn" input
+			(at 137.16 59.69 180)
+			(uuid "a6a58fea-0fa8-4704-9eb0-6fa84234d66c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TAP_MUXL_ODD" output
+			(at 181.61 90.17 0)
+			(uuid "ae0fe247-8bf2-4a9a-8018-3e7b906d744f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TAP_MUXL_EVEN" output
+			(at 181.61 92.71 0)
+			(uuid "18d2b59e-4b8c-4ed5-9312-7b9eb44e755c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TAP_MUXR_EVEN" output
+			(at 181.61 97.79 0)
+			(uuid "315780da-e270-47db-bff7-4d3d30dab6b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TAP_MUXR_ODD" output
+			(at 181.61 95.25 0)
+			(uuid "c0821d49-fa14-4e5a-95c4-d92bf6f7740d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "X_TAP_MUXR_EVEN_S[0..3]" input
+			(at 137.16 102.87 180)
+			(uuid "11980d54-be3d-4035-a640-863e918b44c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXL_ODD_S[0..3]" input
+			(at 137.16 95.25 180)
+			(uuid "8c24dfc9-d2fe-4dda-b04b-40f69ffd717a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXL_EVEN_S[0..3]" input
+			(at 137.16 97.79 180)
+			(uuid "f699057e-4e3e-4daf-830a-b1f8243ee712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXR_ODD_S[0..3]" input
+			(at 137.16 100.33 180)
+			(uuid "e48a6f51-8b89-4553-bfa7-f53069bf0430")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.135 85.09)
+		(size 26.035 70.485)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b3212d6b-eb29-4712-a26c-589910725c6c")
+		(property "Sheetname" "VCAs"
+			(at 191.135 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VCA.kicad_sch"
+			(at 191.135 156.1596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RIGHT_OUT" output
+			(at 217.17 132.08 0)
+			(uuid "95898578-7c31-4a04-99a7-254cd8c3e0a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TAP_MUXR_EVEN" input
+			(at 191.135 97.79 180)
+			(uuid "1870f529-9f23-426d-bf2b-1bc579634917")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Triangle" input
+			(at 191.135 147.32 180)
+			(uuid "9848bd29-2029-4a0d-8594-1cc66c0406ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LEFT_OUT" output
+			(at 217.17 114.3 0)
+			(uuid "ce2ce6f6-9da7-4038-a144-fab17adbe518")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{Triangle}" input
+			(at 191.135 149.86 180)
+			(uuid "cbc7d57c-aa18-4f0a-be39-203341cb4bfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TAP_MUXR_ODD" input
+			(at 191.135 95.25 180)
+			(uuid "46747702-b9b2-4c01-969c-360120f0f0fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TAP_MUXL_EVEN" input
+			(at 191.135 92.71 180)
+			(uuid "c9e77e2f-2432-4d46-9ad5-6d359c18469f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TAP_MUXL_ODD" input
+			(at 191.135 90.17 180)
+			(uuid "f559e8fe-11e1-4418-b74d-0325ec42a0a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 137.16 115.57)
+		(size 29.845 20.955)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cdfbfe58-6f70-4ad7-a7ab-a493a547f573")
+		(property "Sheetname" "LED Array"
+			(at 137.16 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 137.16 137.1096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Triangle" input
+			(at 137.16 130.81 180)
+			(uuid "1881b7ff-536b-4fe2-ac77-a8a134235fe7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Triangle}" input
+			(at 137.16 133.35 180)
+			(uuid "145e88b5-af56-40e0-af1d-76073f6b0890")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXL_EVEN_S[0..3]" input
+			(at 137.16 120.65 180)
+			(uuid "6ff69ac6-8348-4284-bf5d-c5c5c4e830dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXL_ODD_S[0..3]" input
+			(at 137.16 118.11 180)
+			(uuid "769d74c3-9840-4dc0-836b-60cd47755f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXR_ODD_S[0..3]" input
+			(at 137.16 123.19 180)
+			(uuid "05b455b4-5c56-488d-9272-4ada66fc770a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_TAP_MUXR_EVEN_S[0..3]" input
+			(at 137.16 125.73 180)
+			(uuid "c81cd36c-d9df-4397-af1d-2e821e858143")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ScannerVibratoFun_Eurorack"
+				(path "/4114a275-b6fc-4e8b-91a8-ec6980a0ff09"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
